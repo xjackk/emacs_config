@@ -1,0 +1,38 @@
+;;; package ---  Jack's emacs config -- init.el
+;;; Commentary:
+;; "change will come"
+;; 8/14/14 ~
+
+;;; Code:
+
+;; Start Melpa!
+(require 'setup-melpa "~/.emacs.d/setup/setup-melpa.el")
+(require 'setup-general "~/.emacs.d/setup/setup-general.el")
+(require 'setup-themes "~/.emacs.d/setup/setup-themes.el")
+(require 'setup-extlist "~/.emacs.d/setup/setup-extlist.el")
+(require 'setup-rust "~/.emacs.d/setup/setup-rust.el")
+(require 'setup-loadpath "~/.emacs.d/setup/setup-loadpath.el")
+(require 'setup-golden "~/.emacs.d/setup/setup-golden.el")
+(require 'setup-projectile "~/.emacs.d/setup/setup-projectile.el")
+(require 'setup-helm "~/.emacs.d/setup/setup-helm.el")
+(require 'setup-eclim "~/.emacs.d/setup/setup-eclim.el")
+(require 'setup-gradle "~/.emacs.d/setup/setup-gradle.el")
+(require 'setup-company "~/.emacs.d/setup/setup-company.el")
+(require 'setup-perl "~/.emacs.d/setup/setup-perl.el")
+(require 'setup-org "~/.emacs.d/setup/setup-org.el")
+(require 'setup-c "~/.emacs.d/setup/setup-c.el")
+(require 'setup-web "~/.emacs.d/setup/setup-web.el")
+(require 'setup-javascript "~/.emacs.d/setup/setup-javascript.el")
+(require 'setup-variables "~/.emacs.d/setup/setup-variables.el")
+(require 'setup-snippets "~/.emacs.d/setup/setup-snippets.el")
+(require 'setup-keybinds "~/.emacs.d/setup/setup-keybinds.el")
+
+;; global indenting ;;
+(setq web-mode-markup-indent-offset 2)
+(setq web-mode-css-indent-offset 2)
+(setq web-mode-code-indent-offset 2)
+(setq js-indent-level 2)
+(setq js2-basic-offset 2)
+
+(provide 'init)
+;;; init ends here

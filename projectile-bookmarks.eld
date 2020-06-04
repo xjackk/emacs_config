@@ -1,0 +1,1 @@
+("~/.emacs.d/" "~/Projects/rustgur/" "~/Projects/datalab-prototype/" "~/Projects/blotter/" "~/Projects/jrksolutions/" "~/Booz/" "~/Projects/jackkillileasourcev2/" "~/Projects/datalab-scripts/" "~/Projects/datalab/")

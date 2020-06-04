@@ -1,0 +1,128 @@
+cd blotter/
+ls
+git status
+git stash
+git status
+git status
+git pull
+7 files changed, 3368 insertions(+), 3230 deletions(-)
+clear
+git status
+docker
+clear
+ls
+docker build -t blott .
+clear
+clear
+ls
+mkdir components
+ls
+cd components/
+ls
+mkdir header
+ls
+cd header/
+ls
+ls
+cd ..
+cd ..
+ls
+ls
+ls
+clear
+l
+clear
+ls
+ls
+cd components/
+ls
+cd header/
+touch Header.tsx
+touch Header.css
+ls
+ls
+cd ..
+ls
+touch index.ts
+ls
+clearz
+ls
+clear
+ls
+ls
+cd app
+ls
+cd src/
+ls
+npm install react-router-dom
+ls
+cd ..
+ls
+cat package.json
+bat package.json
+clear
+ls
+npm install @types/react-router-dom
+ls
+cd node_modules/
+ls
+cd ..
+ls
+clear
+npm install --save react-router
+ls
+cd src/
+ls
+mkdir components
+cd components/
+ls
+mkdir header
+ls
+cd ..
+ls
+cd components/
+ls
+rm -rf header/
+ls
+clear
+touch header.tsx
+ls
+ls
+cd ..
+ls
+clear
+l
+clear
+la
+ls -a
+cat index.css
+clear
+npm install react-router
+clear
+ls
+clear
+git status
+ls
+l
+clear
+ls
+bat
+bat gatsby-node.js
+clear
+ls
+cat gatsby-node.js
+clear
+quit
+exit
+clear
+top
+ls
+clear
+cleara
+clear a
+clear
+clear
+ls
+clear
+cat index.css
+clear
