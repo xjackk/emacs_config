@@ -41,6 +41,8 @@
 
 (display-time-mode 1) ; display time, duh!
 
+(global-eldoc-mode -1) ;; get rid of eldoc
+
 ;; inital messsage gone
 (setq initial-scratch-message nil)
 

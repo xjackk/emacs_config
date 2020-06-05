@@ -4,8 +4,8 @@
 
 ;;; Code:
 
-;; Org Jira
-(setq jiralib-url "https://federal-spending-transparency.atlassian.net")
+(require 'org)
+(require 'org-capture)
 
 (setq org-directory "~/Booz")
 (setq org-default-notes-file "~/Booz/refile.org")
