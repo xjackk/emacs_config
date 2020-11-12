@@ -12,7 +12,7 @@
 (setq inhibit-startup-message t)
 
 ;; default font
-(set-frame-font "Unifont 16" nil t)
+(set-frame-font "Iosevka 11" nil t)
 
 ;; require "modes"
 ;;(require 'cc-mode)

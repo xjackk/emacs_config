@@ -8,14 +8,14 @@
 (global-set-key (kbd "s-<right>") 'move-end-of-line ) ; Command + Right Arrow // End of Line
 (global-set-key (kbd "s-<left>") 'move-beginning-of-line ) ; Command + Left Arrow // Beginning of Line
 (global-set-key (kbd "M-s-r") 'previous-multiframe-window) ; Command + "r" // previous window
-(global-set-key (kbd "s-l") 'list-buffers ) ; Command + "l" // Buffer list 
-(global-set-key (kbd "H-j") 'switch-to-buffer-other-window ) ; FN + "J" // Swap Buffers 
+(global-set-key (kbd "s-l") 'list-buffers ) ; Command + "l" // Buffer list
+(global-set-key (kbd "H-j") 'switch-to-buffer-other-window ) ; FN + "J" // Swap Buffers
 (global-set-key (kbd "s-k") 'delete-window ) ; FN + "k" // Kill window
-(global-set-key (kbd "H-k") 'kill-buffer ) ; FN + "k" // Kill Buffer 
+(global-set-key (kbd "H-k") 'kill-buffer ) ; FN + "k" // Kill Buffer
 (global-set-key (kbd "S-s-<return>")  'ansi-term) ; Shell
 (global-set-key (kbd "H-n")  'split-window-below) ; Split Window Below (vertical)
 (global-set-key (kbd "s-P")  'magit-status) ; magit git system
-(global-set-key (kbd "s-o")  'org-agenda) ; org mode agenda
+(global-set-key (kbd "s-O")  'org-agenda) ; org mode agenda
 (global-set-key (kbd "s-g")  'goto-line) ; go to a specific line
 (global-set-key (kbd "M-O")  'copy-file-path) ; copies file path to clipboard
 (global-set-key (kbd "C-c a") 'org-agenda) ; org agenda
