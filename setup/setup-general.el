@@ -8,6 +8,19 @@
 (add-to-list 'default-frame-alist '(height . 90))
 (add-to-list 'default-frame-alist '(width . 271))
 
+;; Minimize garbage collection during startup
+(setq gc-cons-threshold most-positive-fixnum)
+
+;; Lower threshold back to 8 MiB (default is 800kB)
+(add-hook 'emacs-startup-hook
+          (lambda ()
+            (setq gc-cons-threshold (expt 2 23))))
+
+(setq read-process-output-max (* 1024 1024))
+
+;; Don't die when handling large, minified files
+(global-so-long-mode 1)
+
 ;; stop startup message from appearing blah
 (setq inhibit-startup-message t)
 
@@ -19,9 +32,10 @@
 ;;(require 'gnus-desktop-notify) ;; desktop notify
 ;;(require 'alert) ;; alerts!
 ;;(require 'jquery-doc)
-;;(require 'web-mode) ;; web-mode!
+(require 'web-mode) ;; web-mode!
 (require 'yaml-mode) ;; yaml duh
 (require 'js2-mode) ;; javascript two mode!
+(require 'rjsx-mode)
 ;;(require 'prettier-js) ;; prettier js on save!
 ;;(require 'csharp-mode) ;; c# mode baby
 ;;(require 'less-css-mode)
@@ -37,11 +51,9 @@
 ;;(require 'alpaca)
 (require 'flycheck)
 ;;(require 'jade-mode) ; jade mode idiot
-;;(require 'use-package) ;; "Use Package" - Github Module
 
 (display-time-mode 1) ; display time, duh!
-
-(global-eldoc-mode -1) ;; get rid of eldoc
+(global-eldoc-mode 1) ;; add eldoc global
 
 ;; inital messsage gone
 (setq initial-scratch-message nil)
@@ -67,7 +79,7 @@
 (setq eshell-path-env (concat (getenv "PATH") "/Users/jackkillilea/perl5/bin:/Users/jackkillilea/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools"))
 
 ;; TAB SIZE
-(setq tab-width 2)
+;;(setq tab-width 2)
 
 (setq backup-directory-alist `(("." . "~/.filesaves")))
 (setq auto-mode-alist (cons '("\\.text$" . text-mode) auto-mode-alist))

@@ -21,7 +21,7 @@
 (add-to-list 'auto-mode-alist '("\\.groovy\\'" . groovy-mode))
 ;;(add-to-list 'auto-mode-alist '("Cakefile" . coffee-mode))
 ;;(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
-(add-to-list 'auto-mode-alist '("\\.json\\'" . json-mode))
+(add-to-list 'auto-mode-alist '("\\.json\\'" . js2-mode))
 ;;(add-to-list 'auto-mode-alist '("\\.js\\'" . jsx-mode))
 (add-to-list 'auto-mode-alist '("components\\/.*\\.js\\'" . rjsx-mode))
 (add-to-list 'auto-mode-alist '("\\.tsx\\'" . rjsx-mode))
