@@ -50,7 +50,7 @@
 (display-time-mode 1)
 
 (menu-bar-mode -1) ;; menu bar hide!
-(toggle-scroll-bar -1) ;; menu bar hide!
+;;(toggle-scroll-bar -1) ;; menu bar hide!
 (tool-bar-mode -1) ;; menu bar hide!
 
 ;; display paren matching
