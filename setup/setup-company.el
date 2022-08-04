@@ -5,9 +5,9 @@
 ;;; Code:
 
 ;; Company Mode
-(require 'company-emacs-eclim)
-
-(company-emacs-eclim-setup)
+;;(require 'company-emacs-eclim)
+;;(require 'company-box)
+;;(add-hook 'company-mode-hook 'company-box-mode)
 
 ;; aligns annotation to the right hand side
 (setq company-tooltip-align-annotations t)

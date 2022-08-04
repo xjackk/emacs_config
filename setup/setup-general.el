@@ -41,10 +41,11 @@
 
 (display-time-mode 1) ; display time, duh!
 
-(global-eldoc-mode -1) ;; get rid of eldoc
-
 ;; inital messsage gone
 (setq initial-scratch-message nil)
+
+;; set yas gobal mode
+(yas-global-mode 1)
 
 ;; display time in emacs
 (display-time-mode 1)
@@ -67,7 +68,7 @@
 (setq eshell-path-env (concat (getenv "PATH") "/Users/jackkillilea/perl5/bin:/Users/jackkillilea/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools"))
 
 ;; TAB SIZE
-(setq tab-width 2)
+;;(setq tab-width 2)
 
 (setq backup-directory-alist `(("." . "~/.filesaves")))
 (setq auto-mode-alist (cons '("\\.text$" . text-mode) auto-mode-alist))
