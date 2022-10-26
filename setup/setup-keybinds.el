@@ -21,6 +21,7 @@
 (global-set-key (kbd "C-c a") 'org-agenda) ; org agenda
 ;;(global-set-key (kbd "C-c 0") 'ace-jump-mode) ; jump mode (:
 (global-set-key (kbd "C-c c") 'org-capture) ; launch org capture
+(global-set-key (kbd "C-x b") 'helm-mini)
 (global-set-key (kbd "M-x") 'helm-M-x)
 (global-set-key (kbd "C-x C-f") 'helm-find-files) ; helm find files
 (global-set-key (kbd "C-x C-k k") 'helm-show-kill-ring) ; showing helm kill ring

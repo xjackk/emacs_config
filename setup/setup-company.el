@@ -4,6 +4,7 @@
 
 ;;; Code:
 
+(require 'company)
 ;; Company Mode
 ;;(require 'company-emacs-eclim)
 ;;(require 'company-box)
@@ -11,6 +12,8 @@
 
 ;; aligns annotation to the right hand side
 (setq company-tooltip-align-annotations t)
+
+(setq company-idle-delay 0.01)
 
 (provide 'setup-company)
 ;;; setup-company ends here

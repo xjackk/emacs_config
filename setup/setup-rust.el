@@ -5,17 +5,17 @@
 ;;; Code:
 
 (require 'rust-mode)
-(require 'cargo)
-(with-eval-after-load 'rust-mode
-  (add-hook 'flycheck-mode-hook #'flycheck-rust-setup))
-(require 'racer)
+(require 'rustic)
+;;(require 'cargo)
+;;(with-eval-after-load 'rust-mode
+;;  (add-hook 'flycheck-mode-hook #'flycheck-rust-setup))
+;;(require 'racer)
 
-(setq racer-rust-src-path "/Users/jackkillilea/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src")
-(add-hook 'rust-mode-hook 'cargo-minor-mode)
+(add-to-list 'auto-mode-alist '("\\.rs\\'" . rustic-mode))
 
-(add-hook 'rust-mode-hook #'racer-mode)
-(add-hook 'racer-mode-hook #'company-mode)
-(setq racer-eldoc-timeout .2)
+;;(add-hook 'rust-mode-hook #'racer-mode)
+;;(add-hook 'racer-mode-hook #'company-mode)
+;;(setq racer-eldoc-timeout .2)
 
 (provide 'setup-rust)
 ;;; setup-rust ends here

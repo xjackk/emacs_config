@@ -45,9 +45,9 @@
 ;;(add-hook 'web-mode-hook #'setup-tide-mode)
 
 ;; prettier js hook for js
-(add-hook 'typescript-mode-hook #'prettier-mode)
-(add-hook 'web-mode-hook #'prettier-mode)
-(add-hook 'rjsx-mode-hook #'prettier-mode)
+;;(add-hook 'typescript-mode-hook #'prettier-mode)
+;;(add-hook 'web-mode-hook #'prettier-mode)
+;;(add-hook 'rjsx-mode-hook #'prettier-mode)
 
 ;;(setq-default flycheck-disabled-checkers (append flycheck-disabled-checkers '(tsx-tide)))
 ;; configure javascript-tide checker to run after your default javascript checker

@@ -116,7 +116,7 @@
      (110 "* %u %?" "~/VT/notes.org" "Notes")))
  '(org-reverse-note-order t)
  '(package-selected-packages
-   '(lua-mode company-box prettier helm-projectile helm lsp-mode company-tern org-jira exec-path-from-shell 0blayout cargo flycheck-rust racer rust-mode melancholy-theme groovy-mode cyberpunk-2019-theme cyberpunk-theme cherry-blossom-theme projectile solarized-theme smartparens twittering-mode scss-mode tide react-snippets yasnippet-snippets rjsx-mode prettier-js js2-mode dracula-theme magit yaml-mode dockerfile-mode docker gradle-mode company-emacs-eclim ac-emacs-eclim eclim auto-complete company web-mode markdown-mode moe-theme flycheck helm-ebdb))
+   '(zoom rustic lua-mode company-box prettier helm-projectile helm lsp-mode company-tern org-jira exec-path-from-shell 0blayout cargo flycheck-rust racer rust-mode melancholy-theme groovy-mode cyberpunk-2019-theme cyberpunk-theme cherry-blossom-theme projectile solarized-theme smartparens twittering-mode scss-mode tide react-snippets yasnippet-snippets rjsx-mode prettier-js js2-mode dracula-theme magit yaml-mode dockerfile-mode docker gradle-mode company-emacs-eclim ac-emacs-eclim eclim auto-complete company web-mode markdown-mode moe-theme flycheck helm-ebdb))
  '(pos-tip-background-color "#eee8d5")
  '(pos-tip-foreground-color "#586e75")
  '(remember-annotation-functions '(org-remember-annotation))

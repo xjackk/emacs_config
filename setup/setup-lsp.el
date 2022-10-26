@@ -8,10 +8,12 @@
 ;;(setq lsp-keymap-prefix "s-l")
 (require 'lsp-mode)
 
-(with-eval-after-load 'lsp-mode
-  (require 'dap-chrome)
-  (add-hook 'lsp-mode-hook #'lsp-enable-which-key-integration)
-  (yas-global-mode))
+;;(with-eval-after-load 'lsp-mode
+;;  (require 'dap-chrome)
+;;  (add-hook 'lsp-mode-hook #'lsp-enable-which-key-integration)
+;;  (yas-global-mode))
+
+(setq lsp-idle-delay 0.1500)
 
 (add-hook 'js2-mode-hook #'lsp)
 (add-hook 'rjsx-mode-hook #'lsp)

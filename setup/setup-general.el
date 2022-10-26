@@ -14,6 +14,11 @@
 ;; default font
 (set-frame-font "Unifont 11" nil t)
 
+;; garbage collector fix
+(setq gc-cons-threshold 100000000)
+;; for lsp-mode
+(setq read-process-output-max (* 1024 1024)) ;; 1mb
+
 ;; require "modes"
 ;;(require 'cc-mode)
 ;;(require 'gnus-desktop-notify) ;; desktop notify
@@ -50,9 +55,9 @@
 ;; display time in emacs
 (display-time-mode 1)
 
-(menu-bar-mode -1) ;; menu bar hide!
-(toggle-scroll-bar -1) ;; menu bar hide!
-(tool-bar-mode -1) ;; menu bar hide!
+(menu-bar-mode -1)
+(toggle-scroll-bar -1)
+(tool-bar-mode -1)
 
 ;; display paren matching
 (show-paren-mode 1)
